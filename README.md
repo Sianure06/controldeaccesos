@@ -73,22 +73,45 @@ Permite crear nuevos usuarios, editar sus perfiles, cambiar roles y eliminar reg
 
 ## 📁 Estructura del Proyecto
 
-```text
-src/
-├── core/
-│   ├── SicaEngine.java         # Fachada de lógica de negocio
-│   └── SicaConfig.java         # Configuraciones globales
-├── data/
-│   └── GestorBaseDatos.java    # Motor de persistencia CSV
-├── models/
-│   └── UsuarioModel.java       # Entidad de usuario
-├── ui/
-│   ├── FabricaVentanas.java    # Patrón Factory para UI
-│   ├── VentanaPrincipal.java   # Login y arranque
-│   └── VentanaAdministrador.java # Panel de control principal
+
+SICA (Root Project)
+
+└── 📂 src/main/java/com/mycompany/controldeaccesos/
+    │
+    ├── 🚀 Controldeaccesos.java (Clase Principal / Entry Point)
+    ├── 🔐 EncriptadorContrasena.java (Utilidad de seguridad)
+    ├── ❓ PreguntasSeguridad.java (Catálogo de preguntas)
+    │
+    ├── 📂 core/ (Lógica de Negocio - Capa Intermedia)
+    │   ├── 🛡️ SicaEngine.java (Fachada/Facade y Singleton)
+    │   └── ⚙️ SicaConfig.java (Configuración del sistema - Singleton)
+    │
+    ├── 📂 data/ (Capa de Datos)
+    │   └── 💾 GestorBaseDatos.java (Manejo de archivos - Singleton)
+    │
+    ├── 📂 models/ (Entidades de Datos)
+    │   └── 👤 UsuarioModel.java (Objeto que representa al usuario)
+    │
+    └── 📂 ui/ (Capa de Presentación - Swing)
+    ├── 💠 VentanaUsuarioInterface.java    <-- INTERFAZ (Contrato común para todas las ventanas)
+    │
+    ├── 🏭 FabricaVentanasUsuario.java      <-- PATRÓN FACTORY (Crea la ventana según el Rol)
+    │
+    ├── 🖼️ VentanaPrincipal.java           <-- LOGIN (Punto de entrada visual y navegación)
+    │
+    ├── 🚀 SplashScreen.java               <-- BIENVENIDA (Efecto visual de carga inicial)
+    │
+    ├── 🎨 GestorIcono.java                <-- UTILIDAD (Aplica el icono de candado a todo el sistema)
+    │
+    ├── 🏠 VentanaUsuarioNormal.java       <-- VISTA BÁSICA (Panel para usuarios estándar)
+    │
+    ├── 🛠️ VentanaAdministrador.java       <-- CLASE PADRE (Contiene toda la lógica de gestión)
+    │   │
+    │   ├── 👮 VentanaSupervisor.java       <-- HERENCIA (Hereda de Admin, pero sin borrar)
+    │   └── 🧐 VentanaAuditor.java          <-- HERENCIA (Hereda de Admin, solo lectura)
 └── resources/                  # Iconos y multimedia
 
-```
+
 
 ---
 
