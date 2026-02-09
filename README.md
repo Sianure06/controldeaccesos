@@ -93,7 +93,7 @@ src/
 * **Lenguaje**: Java 17
 * **Interfaz Gráfica**: Java Swing / AWT
 * **Algoritmo de Hash**: BCrypt (Blowfish)
-* **Persistencia**: Archivos Planos (.txt / .csv)
+* **Persistencia**: Archivos Planos (.txt)
 
 ---
 
