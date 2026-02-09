@@ -1,0 +1,3 @@
+admin,$2a$12$tMSEQof.8ticpeg1mDE2qO/f3ESn0lqOYELViZr6TOLtHF9ZnoIdK,admin@sistema.com,Administrador del Sistema,2026-02-05 18:36:43,2026-02-05 18:36:44,true,ADMIN,,,,2026-02-04 15:54:28
+Orlando Cabrera,$2a$12$bgiboILAOdkFAX6zDs/GY.Jv0mpZqhJ1d93vOiJMrbLdFVCouvPy.,@orlando,orlando lopez,2026-02-04 16:02:39,2026-02-04 16:01:28,true,USUARIO,¿Cuál es tu libro favorito?,$2a$12$9VUQEOClYnmhPk4zg0jMkOOBp8o9dgpplOgd3XVGA7zw1eKmXagDu,,2026-02-04 15:58:46
+Orlando,$2a$12$dZavHuaYXnXuUfWD9/s5o.1ETcZP9c95PrU6wtUzLHa3SrwsbTve6,@lopez,lopez,2026-02-05 00:09:04,2026-02-05 00:09:05,true,USUARIO,¿En qué ciudad naciste?,$2a$12$Cf.n8vumZ0UOfDHwcfTIM.DaNsfGzxStYysMFFP94DUc9HecaCDka,,2026-02-05 00:08:42

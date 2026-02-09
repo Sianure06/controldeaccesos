@@ -1,0 +1,4 @@
+admin,$2a$12$tMSEQof.8ticpeg1mDE2qO/f3ESn0lqOYELViZr6TOLtHF9ZnoIdK,admin@sistema.com,Administrador del Sistema,2026-02-06 00:03:12,2026-02-06 00:03:12,true,ADMIN,,,,2026-02-04 15:54:28
+Orlando Cabrera,$2a$12$bgiboILAOdkFAX6zDs/GY.Jv0mpZqhJ1d93vOiJMrbLdFVCouvPy.,@orlando,orlando lopez,2026-02-04 16:02:39,2026-02-04 16:01:28,true,USUARIO,¿Cuál es tu libro favorito?,$2a$12$9VUQEOClYnmhPk4zg0jMkOOBp8o9dgpplOgd3XVGA7zw1eKmXagDu,,2026-02-04 15:58:46
+orlando,$2a$12$rBnapbcL9qyJISXEYWOrceSYEV/D8G0GFL5xBqPbOkeVD5Ty8S39S,@cabrera,orlando,2026-02-05 21:03:24,2026-02-05 21:02:19,true,USUARIO,¿Cuál es el nombre de tu mascota favorita?,$2a$12$e.KpH.ZsPjaUsYRSMAQIfua1NoRHwosRDiMj5myDqyfR5IB/UusD2,,2026-02-05 19:48:14
+lopez,$2a$12$aK6pMN23sm4NCiLoFoPRUOkNJeeF5rGgOGCYKC4kJTcaMc2kCOqMW,@email,lopezo,2026-02-05 22:48:29,2026-02-05 22:48:29,true,USUARIO,¿Cuál es el apellido de soltera de tu madre?,$2a$12$ty/YFqK8zc/n.bV0UE7XUuzrjK8pv.QWx2szzD9zgHt53P/0Q6t3C,,2026-02-05 22:48:15
