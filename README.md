@@ -40,6 +40,10 @@ Permite crear nuevos usuarios, editar sus perfiles, cambiar roles y eliminar reg
 
 <img width="1566" height="875" alt="Captura de pantalla 2026-02-08 191339" src="https://github.com/user-attachments/assets/cf4c1f02-08e7-468a-b4ca-c1c89abf0d29" />
 
+![WhatsApp Image 2026-02-09 at 4 05 08 PM](https://github.com/user-attachments/assets/4bd3c1ad-28ac-4147-b2d2-62cc2b7b5559)
+
+![WhatsApp Image 2026-02-09 at 4 05 58 PM](https://github.com/user-attachments/assets/96d5473a-bfad-478f-824e-edb1f52d1dd6)
+
 
 ## ⚙️ Requisitos
 
