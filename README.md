@@ -34,11 +34,12 @@ Permite crear nuevos usuarios, editar sus perfiles, cambiar roles y eliminar reg
 * **Análisis de Datos**: Generación de reportes y estadísticas de acceso por fechas.
 * **Normalización**: Procesamiento de entradas para evitar errores de duplicidad y sensibilidad a mayúsculas.
 
----
 
 ## 🖼️ Pantallas
+<img width="626" height="548" alt="Captura de pantalla 2026-02-08 191653" src="https://github.com/user-attachments/assets/a1e39508-cbb1-4813-8514-e35010b88ab2" />
 
----
+<img width="1566" height="875" alt="Captura de pantalla 2026-02-08 191339" src="https://github.com/user-attachments/assets/cf4c1f02-08e7-468a-b4ca-c1c89abf0d29" />
+
 
 ## ⚙️ Requisitos
 
