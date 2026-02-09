@@ -75,7 +75,7 @@ Permite crear nuevos usuarios, editar sus perfiles, cambiar roles y eliminar reg
 
 
 SICA (Root Project)
-
+```text
 └── 📂 src/main/java/com/mycompany/controldeaccesos/
     │
     ├── 🚀 Controldeaccesos.java (Clase Principal / Entry Point)
