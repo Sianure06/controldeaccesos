@@ -7,22 +7,31 @@ El programa SICA es un sistema robusto de gestión de identidades y control de u
 
 •	Sistema de Autenticación Segura (Login)
 Implementado en VentanaPrincipal.java y SicaEngine.java. Valida credenciales de usuario mediante el analisis de una base de datos local, gestionando sesiones activas.
+
 •	Cifrado de Contraseñas con BCrypt
 Usa la clase EncriptadorContrasena.java para aplicar hashing a las contraseñas. No se guardan textos planos, lo que protege el sistema contra filtraciones de datos.
+
 •	Gestión de Roles y Permisos (RBAC)
 A través de FabricaVentanasUsuario.java, el sistema identifica si el usuario es Admin, Supervisor, Auditor o Normal, restringiendo botones y funciones según el nivel de acceso.
+
 •	Bloqueo Automático de Seguridad
 En UsuarioModel.java, el sistema cuenta los intentos fallidos. Al llegar a 3 intentos, bloquea la cuenta automáticamente por 15 minutos, registrando la fechaDesbloqueo.
+
 •	Recuperación de Cuenta mediante Preguntas Secretas
 Lógica presente en PreguntasSeguridad.java y SicaEngine.java. Permite restablecer el acceso validando respuestas predefinidas que también están hasheadas para mayor seguridad.
+
 •	Auditoría y Registro de Accesos (Logs)
 El GestorBaseDatos.java registra cada entrada al sistema en un archivo de texto, permitiendo un historial de quién entró y en qué fecha.
+
 •	Generación de Estadísticas Visuales
 En VentanaAdministrador.java, existe lógica para renderizar gráficos (probablemente de barras o líneas) basados en los datos de acceso de los últimos días.
+
 •	Motor de Copias de Seguridad (Backup)
 Permite a los administradores crear respaldos de la base de datos de usuarios (usuarios.txt) y gestionarlos desde la interfaz.
+
 •	Restauración de Sistema
 •	Funcionalidad para revertir la base de datos a un estado anterior seleccionando un archivo de backup previo, implementado en el motor de datos.
+
 •	Gestión de Usuarios (CRUD)
 Permite crear nuevos usuarios, editar sus perfiles, cambiar roles y eliminar registros (funcionalidad completa en el panel de Administrador).
 
